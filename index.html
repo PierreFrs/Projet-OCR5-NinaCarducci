@@ -2,9 +2,15 @@
 <html>
   <!-- Head -->
   <head>
+    <title>Nina Carducci - Photographe</title>
+    <meta
+      name="description"
+      content="Photographe concerts, corporate,mariage, portrait, shooting, retouches, albums photos à Paris et Ile-de-France. "
+    />
+    <meta name="robots" content="index, follow" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./assets/bootstrap/bootstrap.css" />
-    <link rel="stylesheet" href="./assets/style.css" />
+    <link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css" />
+    <link rel="stylesheet" href="./assets/style.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -17,7 +23,7 @@
   <!-- Body -->
   <body>
     <!-- Top Header -->
-    <div class="top-header">
+    <nav class="top-header">
       <h3 class="name">Nina Carducci</h3>
       <div class="nav">
         <ul>
@@ -35,10 +41,10 @@
           </li>
         </ul>
       </div>
-    </div>
+    </nav>
     <!-- End Top Header -->
     <!-- Header -->
-    <div id="header">
+    <header id="header">
       <div
         id="carouselExampleIndicators"
         class="carousel slide"
@@ -108,175 +114,184 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
-    </div>
+    </header>
     <!-- End Header -->
-    <!-- About -->
-    <div id="about">
-      <div class="picture left">
-        <img
-          src="./assets/images/nina-carducci-optimized.webp"
-          alt="A portrait of the photographer Nina Carducci"
-        />
-      </div>
-      <div id="about-me">
-        <h3 class="about-me__title">A propos de moi</h3>
-        <h6 class="about-me__introduction">
-          Devenir photographe était pour moi une évidence. Comme si j’y étais
-          prédestiné. Saisir un moment, une émotion, une situation, un endroit,
-          une lumière et les rendre immortels, voilà ce qui me fait vibrer.
-        </h6>
-        <p>
-          Nous passons notre vie à chercher le bonheur, et lorsque nous y
-          touchons, nous n’avons qu’une envie : le figer au travers de
-          photographies pour le savourer avec les personnes qui sont importantes
-          à nos yeux, ou le partager au plus grand nombre. C’est ce que je vous
-          propose : saisir ces merveilleux moments au travers de mon regard, mon
-          approche, ma technique. Rendre ces moments immortels, afin que vous
-          puissiez y puiser de l’amour, du bonheur, de la tendresse et de
-          lumière à chaque fois que vous poserez les yeux sur vos photos.
-        </p>
-      </div>
-    </div>
-    <!-- End About -->
-    <!-- Gallery -->
-    <div id="gallery">
-      <h3 class="title">Portfolio</h3>
-      <div class="container py-3">
-        <div class="gallery" style="display: none">
+    <!-- Main -->
+    <main>
+      <!-- About -->
+      <section id="about">
+        <div class="picture left">
           <img
-            data-gallery-tag="Concert"
-            class="gallery-item"
-            src="./assets/images/gallery/concerts/aaron-paul-live-show-optimized.webp"
-            alt="Picture of a concert room during a rock live show"
-          />
-          <img
-            data-gallery-tag="Entreprises"
-            class="gallery-item"
-            src="./assets/images/gallery/entreprise/ali-morshedlou-corporate-optimized.webp"
-            alt="Portrait of a suited man"
-          />
-          <img
-            data-gallery-tag="Entreprises"
-            class="gallery-item"
-            src="./assets/images/gallery/entreprise/jason-goodman-corporate-optimized.webp"
-            alt="Portrait of a smiling woman at work"
-          />
-          <img
-            data-gallery-tag="Mariages"
-            class="gallery-item"
-            src="./assets/images/gallery/mariage/hannah-busing-wedding-optimized.webp"
-            alt="Picture of two pairs of hands joining during a wedding"
-          />
-          <img
-            data-gallery-tag="Portrait"
-            class="gallery-item"
-            src="./assets/images/gallery/portraits/ade-tunji-portrait-optimized.webp"
-            alt="Portrait of a young black bearded man in his mid twenties"
-          />
-          <img
-            data-gallery-tag="Mariages"
-            class="gallery-item"
-            src="./assets/images/gallery/mariage/jakob-owens-wedding-optimized.webp"
-            alt="Portrait of a newly wed couple before a palm tree"
-          />
-          <img
-            data-gallery-tag="Portrait"
-            class="gallery-item"
-            src="./assets/images/gallery/portraits/nino-van-prattenburg-portrait-optimized.webp"
-            alt="Portrait of a young woman behind a fence"
-          />
-          <img
-            data-gallery-tag="Concert"
-            class="gallery-item"
-            src="./assets/images/gallery/concerts/austin-neill-live-show-optimized.webp"
-            alt="Portrait of a man singing during a live show"
-          />
-          <img
-            data-gallery-tag="Entreprises"
-            class="gallery-item"
-            src="./assets/images/gallery/entreprise/mateus-campos-felipe-corporate-optimized.webp"
-            alt="Portrait of a woman at work behing her computer"
+            src="./assets/images/nina-carducci-optimized.webp"
+            alt="A portrait of the photographer Nina Carducci"
           />
         </div>
-      </div>
-      <div class="quote">
+        <div id="about-me">
+          <h3 class="about-me__title">A propos de moi</h3>
+          <h6 class="about-me__introduction">
+            Devenir photographe était pour moi une évidence. Comme si j’y étais
+            prédestiné. Saisir un moment, une émotion, une situation, un
+            endroit, une lumière et les rendre immortels, voilà ce qui me fait
+            vibrer.
+          </h6>
+          <p>
+            Nous passons notre vie à chercher le bonheur, et lorsque nous y
+            touchons, nous n’avons qu’une envie : le figer au travers de
+            photographies pour le savourer avec les personnes qui sont
+            importantes à nos yeux, ou le partager au plus grand nombre. C’est
+            ce que je vous propose : saisir ces merveilleux moments au travers
+            de mon regard, mon approche, ma technique. Rendre ces moments
+            immortels, afin que vous puissiez y puiser de l’amour, du bonheur,
+            de la tendresse et de lumière à chaque fois que vous poserez les
+            yeux sur vos photos.
+          </p>
+        </div>
+      </section>
+      <!-- End About -->
+      <!-- Gallery -->
+      <section id="gallery">
+        <h3 class="title">Portfolio</h3>
+        <div class="container py-3">
+          <div class="gallery" style="display: none">
+            <img
+              data-gallery-tag="Concert"
+              class="gallery-item"
+              src="./assets/images/gallery/concerts/aaron-paul-live-show-optimized.webp"
+              alt="Picture of a concert room during a rock live show"
+            />
+            <img
+              data-gallery-tag="Entreprises"
+              class="gallery-item"
+              src="./assets/images/gallery/entreprise/ali-morshedlou-corporate-optimized.webp"
+              alt="Portrait of a suited man"
+            />
+            <img
+              data-gallery-tag="Entreprises"
+              class="gallery-item"
+              src="./assets/images/gallery/entreprise/jason-goodman-corporate-optimized.webp"
+              alt="Portrait of a smiling woman at work"
+            />
+            <img
+              data-gallery-tag="Mariages"
+              class="gallery-item"
+              src="./assets/images/gallery/mariage/hannah-busing-wedding-optimized.webp"
+              alt="Picture of two pairs of hands joining during a wedding"
+            />
+            <img
+              data-gallery-tag="Portrait"
+              class="gallery-item"
+              src="./assets/images/gallery/portraits/ade-tunji-portrait-optimized.webp"
+              alt="Portrait of a young black bearded man in his mid twenties"
+            />
+            <img
+              data-gallery-tag="Mariages"
+              class="gallery-item"
+              src="./assets/images/gallery/mariage/jakob-owens-wedding-optimized.webp"
+              alt="Portrait of a newly wed couple before a palm tree"
+            />
+            <img
+              data-gallery-tag="Portrait"
+              class="gallery-item"
+              src="./assets/images/gallery/portraits/nino-van-prattenburg-portrait-optimized.webp"
+              alt="Portrait of a young woman behind a fence"
+            />
+            <img
+              data-gallery-tag="Concert"
+              class="gallery-item"
+              src="./assets/images/gallery/concerts/austin-neill-live-show-optimized.webp"
+              alt="Portrait of a man singing during a live show"
+            />
+            <img
+              data-gallery-tag="Entreprises"
+              class="gallery-item"
+              src="./assets/images/gallery/entreprise/mateus-campos-felipe-corporate-optimized.webp"
+              alt="Portrait of a woman at work behing her computer"
+            />
+          </div>
+        </div>
+        <div class="quote">
+          <figure>
+            <blockquote>
+              <h1 class="quote__text">
+                Un portrait n’est pas une ressemblance. Dès lors qu’une émotion
+                ou qu’un fait est traduit en photo, il cesse d’être un fait pour
+                devenir une opinion. L’inexactitude n’existe pas en
+                photographie. Toutes les photos sont exactes. Aucune d’elles
+                n’est la vérité.
+              </h1>
+            </blockquote>
+            <figcaption class="quote__author">- Richard Avedon</figcaption>
+          </figure>
+        </div>
+      </section>
+      <!-- End Gallery -->
+      <!-- Services -->
+      <section id="services">
+        <h3 class="title">Mes services</h3>
+        <div class="container">
+          <div class="service">
+            <div class="service__description">
+              <h3>Shooting photo</h3>
+              <p>
+                Pour capturer vos moments les plus précieux et garder un
+                souvenir impérissable. Je me déplace en Île-de-France pour
+                réaliser vos photos
+              </p>
+            </div>
+            <div class="service__price">
+              <h4>350€/demi journée</h4>
+              <span>Matériel, déplacement inclus</span>
+            </div>
+          </div>
+          <div class="service">
+            <div class="service__description">
+              <h3>Retouches</h3>
+              <p>
+                Vous souhaitez retoucher vos photos pour un résultat
+                professionnel ? Bénéficier d’un rendu optimal pour vos
+                publications
+              </p>
+            </div>
+            <div class="service__price">
+              <h4>50€/photo</h4>
+              <span>2 AR par photo</span>
+            </div>
+          </div>
+          <div class="service">
+            <div class="service__description">
+              <h3>Album photos</h3>
+              <p>
+                Partagez avec vos proches et vos clients les photos des moments
+                partagés ensemble à travers un album photo personnalisé
+              </p>
+            </div>
+            <div class="service__price">
+              <h4>400€ album A4</h4>
+              <span>30 pages recto/verso</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Services -->
+      <!-- Quote -->
+      <section class="quote">
         <figure>
           <blockquote>
             <h1 class="quote__text">
-              Un portrait n’est pas une ressemblance. Dès lors qu’une émotion ou
-              qu’un fait est traduit en photo, il cesse d’être un fait pour
-              devenir une opinion. L’inexactitude n’existe pas en photographie.
-              Toutes les photos sont exactes. Aucune d’elles n’est la vérité.
+              De manière inconsciente, je crois, je guette un regard, une
+              expression, des traits ou une nostalgie capable de résumer ou plus
+              exactement de révéler une vie
             </h1>
           </blockquote>
           <figcaption class="quote__author">- Richard Avedon</figcaption>
         </figure>
-      </div>
-    </div>
-    <!-- End Gallery -->
-    <!-- Services -->
-    <div id="services">
-      <h3 class="title">Mes services</h3>
-      <div class="container">
-        <div class="service">
-          <div class="service__description">
-            <h3>Shooting photo</h3>
-            <p>
-              Pour capturer vos moments les plus précieux et garder un souvenir
-              impérissable. Je me déplace en Île-de-France pour réaliser vos
-              photos
-            </p>
-          </div>
-          <div class="service__price">
-            <h4>350€/demi journée</h4>
-            <span>Matériel, déplacement inclus</span>
-          </div>
-        </div>
-        <div class="service">
-          <div class="service__description">
-            <h3>Retouches</h3>
-            <p>
-              Vous souhaitez retoucher vos photos pour un résultat professionnel
-              ? Bénéficier d’un rendu optimal pour vos publications
-            </p>
-          </div>
-          <div class="service__price">
-            <h4>50€/photo</h4>
-            <span>2 AR par photo</span>
-          </div>
-        </div>
-        <div class="service">
-          <div class="service__description">
-            <h3>Album photos</h3>
-            <p>
-              Partagez avec vos proches et vos clients les photos des moments
-              partagés ensemble à travers un album photo personnalisé
-            </p>
-          </div>
-          <div class="service__price">
-            <h4>400€ album A4</h4>
-            <span>30 pages recto/verso</span>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- End Services -->
-    <!-- Quote -->
-    <div class="quote">
-      <figure>
-        <blockquote>
-          <h1 class="quote__text">
-            De manière inconsciente, je crois, je guette un regard, une
-            expression, des traits ou une nostalgie capable de résumer ou plus
-            exactement de révéler une vie
-          </h1>
-        </blockquote>
-        <figcaption class="quote__author">- Richard Avedon</figcaption>
-      </figure>
-    </div>
-    <!-- End Quote -->
+      </section>
+      <!-- End Quote -->
+    </main>
+    <!-- End Main -->
+
     <!-- Contact -->
-    <div id="contact">
+    <footer id="contact">
       <div class="container">
         <div class="form-container">
           <h3>Une question ? Une demande de devis ?</h3>
@@ -305,18 +320,18 @@
           />
         </div>
       </div>
-    </div>
+    </footer>
     <!-- End Contact -->
   </body>
   <!-- Scripts -->
-  <script src="./assets/bootstrap/bootstrap.bundle.js"></script>
+  <script src="./assets/bootstrap/bootstrap.bundle.min.js"></script>
   <script
     src="https://code.jquery.com/jquery-3.4.1.min.js"
     integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
     crossorigin="anonymous"
   ></script>
-  <script src="./assets/maugallery.js"></script>
-  <script src="./assets/scripts.js"></script>
+  <script src="./assets/maugallery.min.js"></script>
+  <script src="./assets/script.min.js"></script>
   <!-- End Scripts -->
   <!-- End Body -->
 </html>
